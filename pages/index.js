@@ -1,13 +1,5 @@
-import Layout from '../components/layout'
-import Greeting from '../components/greeter'
-import Button from "../components/button";
+import style from '../styles/style.scss'
 
 export default () => (
-  <Layout>
-    <h1>Hello World.</h1>
-    <Greeting name="pe" />
-    <Button label="danger" type="danger" />
-    <Button label="warning" type="warning" />
-    <Button label="primary" />
-  </Layout>
+    <h1 className={style.example}>Hello World.</h1>
 )
